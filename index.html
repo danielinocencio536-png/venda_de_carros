@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LA STRADA — Luxury Cars & Concierge</title>
+    <meta name="description" content="Curadoria de carros de luxo, experiências privativas e concierge automotivo. Onde cada direção é uma jornada.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <!-- TOP NAVIGATION -->
+    <header class="top-nav" id="topNav">
+        <div class="nav-inner">
+            <button class="nav-toggle" id="navToggle" aria-label="Menu">
+                <i class="fa-solid fa-bars"></i>
+                <span data-i18n="nav.menu">MENU</span>
+            </button>
+
+            <div class="nav-center">
+                <div class="logo">
+                    <span class="logo-main">LA STRADA</span>
+                    <span class="logo-sub">LUXURY CARS · CONCIERGE</span>
+                </div>
+            </div>
+
+            <div class="nav-right">
+                <button class="lang-btn" id="langBtn" aria-label="Idioma">
+                    <span class="lang-opt" data-lang="EN">EN</span>
+                    <span class="lang-sep">/</span>
+                    <span class="lang-opt" data-lang="ES">ES</span>
+                    <span class="lang-sep">/</span>
+                    <span class="lang-opt lang-active" data-lang="PT">PT</span>
+                </button>
+                <a href="#contact" class="contact-btn" aria-label="Contact">
+                    <i class="fa-solid fa-phone"></i>
+                    <span data-i18n="nav.contact">CONTACT</span>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero">
+        <div class="hero-media">
+            <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=2000&q=80" alt="Luxury car at sunset" class="hero-bg">
+            <div class="hero-overlay"></div>
+        </div>
+
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title" data-i18n-html="hero.title">
+                    The luxury of <em>driving</em><br>
+                    where nature <em>sets the pace.</em>
+                </h1>
+                <div class="hero-ctas">
+                    <a href="#collection" class="btn btn-light" data-i18n="hero.cta1">DRIVE-IN</a>
+                    <a href="#experience" class="btn btn-ghost" data-i18n="hero.cta2">EXPERIENCE HERE</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FEATURE 1 — THE LUXURY OF DRIVING INTO THE WILD -->
+    <section class="feature feature-drive" id="experience">
+        <div class="feature-media">
+            <img src="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&w=2000&q=80" alt="Car on open road" class="feature-img">
+        </div>
+        <div class="feature-overlay"></div>
+        <div class="feature-content">
+            <span class="kicker" data-i18n="feat1.kicker">01 — Experience</span>
+            <h2 class="feature-title" data-i18n-html="feat1.title">THE LUXURY OF <em>DRIVING</em> INTO THE WILD</h2>
+            <p class="feature-text" data-i18n="feat1.text">Estradas privadas, paisagens inexploradas e o ronco surdo de um motor sob demanda. Cada trajeto é desenhado à mão pelo nosso concierge.</p>
+            <div class="feature-ctas">
+                <a href="#collection" class="btn btn-light" data-i18n="feat1.cta1">FLEET AREA</a>
+                <a href="#packages" class="btn btn-ghost" data-i18n="feat1.cta2">EXPERIENCE HERE</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FEATURE 2 — FREEDOM HAS NO LIMITS -->
+    <section class="feature feature-freedom">
+        <div class="feature-media">
+            <img src="https://images.unsplash.com/photo-1525609004556-c46c7d6cf023?auto=format&fit=crop&w=2000&q=80" alt="Convertible on the coast" class="feature-img">
+        </div>
+        <div class="feature-overlay"></div>
+        <div class="feature-content">
+            <span class="tag tag-pilot" data-i18n="feat2.tag">DRIVER-INSIDE</span>
+            <h2 class="feature-title" data-i18n-html="feat2.title">FREEDOM <em>HAS NO LIMITS</em></h2>
+            <p class="feature-text" data-i18n="feat2.text">De canyons a litoral — uma curadoria de rotas que transformam direção em narrativa.</p>
+            <a href="#packages" class="btn btn-light" data-i18n="feat2.cta">BOOK DRIVE</a>
+        </div>
+        <div class="feature-side">
+            <img src="https://images.unsplash.com/photo-1542362567-b07e54358753?auto=format&fit=crop&w=600&q=80" alt="Detail">
+        </div>
+    </section>
+
+    <!-- FEATURE 3 — IT BEGINS AS A DREAM -->
+    <section class="feature feature-dream">
+        <div class="feature-media">
+            <img src="https://images.unsplash.com/photo-1583121274602-3e2820c69888?auto=format&fit=crop&w=2000&q=80" alt="Red supercar at night" class="feature-img">
+        </div>
+        <div class="feature-overlay feature-overlay--dark"></div>
+        <div class="feature-content">
+            <h2 class="feature-title feature-title--small" data-i18n-html="feat3.title">IT BEGINS AS A DREAM, <em>DRIVING</em> IN THE WILD. REFINED THROUGH LUXURY, TODAY — LA STRADA.</h2>
+        </div>
+    </section>
+
+    <!-- FEATURE 4 — SANCTUARY -->
+    <section class="feature feature-sanctuary" id="collection">
+        <div class="feature-media">
+            <img src="https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?auto=format&fit=crop&w=2000&q=80" alt="Luxury estate" class="feature-img">
+        </div>
+        <div class="feature-overlay"></div>
+        <div class="feature-content">
+            <h2 class="feature-title" data-i18n-html="feat4.title">YOUR SANCTUARY OF <em>NATURE,</em> PRIVACY <em>AND</em> EXCLUSIVITY</h2>
+            <p class="feature-text" data-i18n="feat4.text">Whether it is a weekend stay at a vintage estate, our chalet in the Dolomites, or our private garage in Maranello — every chapter of La Strada is written with the same hand: discretion, attention, mastery.</p>
+            <a href="#packages" class="btn btn-ghost btn-ghost--light" data-i18n="feat4.cta">EXPLORE ADDRESSES</a>
+        </div>
+        <div class="sanctuary-thumb">
+            <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=600&q=80" alt="Detail">
+        </div>
+    </section>
+
+    <!-- PACKAGES -->
+    <section class="packages" id="packages">
+        <div class="packages-inner">
+            <span class="kicker" data-i18n="pkg.kicker">02 — Packages</span>
+            <h3 class="packages-eyebrow" data-i18n="pkg.eyebrow">EACH PACKAGE HAS BEEN DESIGNED TO COMBINE SEAMLESS PRIVATE DRIVING WITH THE ELEGANCE AND HOSPITALITY OF LA STRADA.</h3>
+
+            <div class="packages-card">
+                <div class="packages-card-media">
+                    <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=900&q=80" alt="Fleet">
+                </div>
+                <div class="packages-card-body">
+                    <div class="package-table">
+                        <div class="package-row package-row--head">
+                            <div class="package-cell label"></div>
+                            <div class="package-cell" data-i18n="pkg.col1">PILOT ONLY</div>
+                            <div class="package-cell" data-i18n="pkg.col2">MAXIMUM TWO</div>
+                            <div class="package-cell" data-i18n="pkg.col3">MAXIMUM THREE</div>
+                            <div class="package-cell" data-i18n="pkg.col4">MAXIMUM FOUR</div>
+                        </div>
+                        <div class="package-row">
+                            <div class="package-cell label" data-i18n="pkg.row1">VEHICLE HIRE</div>
+                            <div class="package-cell">—</div>
+                            <div class="package-cell">—</div>
+                            <div class="package-cell">—</div>
+                            <div class="package-cell">—</div>
+                        </div>
+                        <div class="package-row">
+                            <div class="package-cell label" data-i18n="pkg.row2">VEHICLE DISCOUNT</div>
+                            <div class="package-cell">5%</div>
+                            <div class="package-cell">10%</div>
+                            <div class="package-cell">15%</div>
+                            <div class="package-cell">20%</div>
+                        </div>
+                        <div class="package-row">
+                            <div class="package-cell label" data-i18n="pkg.row3">FUEL DISCOUNT</div>
+                            <div class="package-cell">—</div>
+                            <div class="package-cell">100%</div>
+                            <div class="package-cell">100%</div>
+                            <div class="package-cell">100%</div>
+                        </div>
+                        <div class="package-row">
+                            <div class="package-cell label" data-i18n="pkg.row4">EXCLUSIVE VIP</div>
+                            <div class="package-cell">—</div>
+                            <div class="package-cell">—</div>
+                            <div class="package-cell" data-i18n="pkg.yes">YES</div>
+                            <div class="package-cell" data-i18n="pkg.yes">YES</div>
+                        </div>
+                        <div class="package-row">
+                            <div class="package-cell label" data-i18n="pkg.row5">LA STRADA LIFT</div>
+                            <div class="package-cell">—</div>
+                            <div class="package-cell" data-i18n="pkg.yes">YES</div>
+                            <div class="package-cell" data-i18n="pkg.yes">YES</div>
+                            <div class="package-cell" data-i18n="pkg.yes">YES</div>
+                        </div>
+                    </div>
+
+                    <p class="packages-footnote" data-i18n="pkg.footnote">*Packages are applicable to bookings of 2 nights and above. All discounts are calculated on the base fleet price. Each package includes one driver, private garage access, and a curated route. For bespoke itineraries, our concierge designs every chapter by hand.</p>
+
+                    <a href="#contact" class="btn btn-light btn--block" data-i18n="pkg.cta">EXPLORE DETAILS</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- MANIFESTO -->
+    <section class="manifesto">
+        <div class="manifesto-inner">
+            <p class="manifesto-eyebrow" data-i18n="manif.eyebrow">SHARED DRIVING</p>
+            <p class="manifesto-text" data-i18n-html="manif.text">NOT MILAN. NOT CÔTE D'AZUR.<br>NOT SAINT-TROPEZ.<br><em>THIS IS FREEDOM.</em></p>
+        </div>
+    </section>
+
+    <!-- BEYOND SECTION -->
+    <section class="beyond">
+        <div class="beyond-media">
+            <img src="https://images.unsplash.com/photo-1544636331-e26879cd4d9b?auto=format&fit=crop&w=2000&q=80" alt="Supercar" class="beyond-img">
+            <div class="feature-overlay"></div>
+        </div>
+        <div class="beyond-content">
+            <h2 class="feature-title" data-i18n-html="beyond.title">BEYOND NICE, <em>BEYOND</em> CANNES, <em>BEYOND</em> SAINT-TROPEZ.</h2>
+            <p class="feature-text" data-i18n-html="beyond.text">You will find the Dolomites, the dunes of Erg Chebbi, the road of the giants, the open sky, the warm wind of the south. So that your journey makes sense of you — <em>not the other way around.</em></p>
+        </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section class="testimonials" id="testimonials">
+        <div class="testimonials-head">
+            <span class="kicker kicker--light" data-i18n="test.kicker">CLIENT TESTIMONIALS</span>
+            <h2 class="testimonials-title" data-i18n-html="test.title">STORIES <em>FROM THE ROAD</em> TO LA STRADA — TOLD BY OUR GUESTS.</h2>
+        </div>
+
+        <div class="card-stack" id="cardStack">
+            <div class="card card--back-2">
+                <div class="card-side">LA STRADA</div>
+                <div class="card-inner"></div>
+                <div class="card-side card-side--right">CONCIERGE</div>
+            </div>
+            <div class="card card--back-1">
+                <div class="card-side">LA STRADA</div>
+                <div class="card-inner"></div>
+                <div class="card-side card-side--right">CONCIERGE</div>
+            </div>
+            <div class="card card--front" data-index="0">
+                <div class="card-side">LA STRADA</div>
+                <div class="card-inner">
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                    </div>
+                    <p class="quote" id="quoteText">I was a driver and had the privilege of being one of the first to experience La Strada. To me, it is a place of extraordinary beauty, pure driving, ideal for those who deserve it. A garage with a unique character.</p>
+                    <div class="author">
+                        <strong id="authorName">CLIENT 01</strong>
+                        <span id="authorRole">PRIVATE GUEST · ALGARVE</span>
+                    </div>
+                </div>
+                <div class="card-side card-side--right">CONCIERGE</div>
+            </div>
+        </div>
+
+        <div class="card-controls">
+            <button class="dot active" data-index="0" aria-label="Testimonial 1"></button>
+            <button class="dot" data-index="1" aria-label="Testimonial 2"></button>
+            <button class="dot" data-index="2" aria-label="Testimonial 3"></button>
+        </div>
+    </section>
+
+    <!-- CONTACT / FOOTER -->
+    <footer class="contact" id="contact">
+        <div class="contact-inner">
+            <div class="contact-block">
+                <span class="kicker" data-i18n="foot.k1">Address</span>
+                <p data-i18n-html="foot.addr">LA STRADA — Atelier & Garage<br>Estrada Particular, km 4<br>8125-012 Loulé, Algarve — Portugal</p>
+            </div>
+            <div class="contact-block">
+                <span class="kicker" data-i18n="foot.k2">Reservations</span>
+                <p>+351 282 000 000<br>concierge@lastrada.com</p>
+            </div>
+            <div class="contact-block">
+                <span class="kicker" data-i18n="foot.k3">Press</span>
+                <p>press@lastrada.com</p>
+            </div>
+            <div class="contact-block">
+                <span class="kicker" data-i18n="foot.k4">Follow</span>
+                <div class="socials">
+                    <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="contact-foot">
+            <span data-i18n="foot.copy">© 2026 LA STRADA. All rights reserved.</span>
+            <span class="contact-foot-mid" data-i18n="foot.tag">PRIVATE AUTOMOTIVE EXPERIENCE</span>
+            <span>ALGARVE · PORTO · MARANELLO</span>
+        </div>
+    </footer>
+
+    <!-- MENU DRAWER -->
+    <div class="menu-overlay" id="menuOverlay" hidden></div>
+    <aside class="menu-drawer" id="menuDrawer" hidden aria-hidden="true">
+        <button class="menu-close" id="menuClose" aria-label="Close menu">
+            <i class="fa-solid fa-xmark"></i>
+        </button>
+        <nav class="menu-nav">
+            <a href="#experience" class="menu-link" data-i18n="menu.experience">EXPERIENCE</a>
+            <a href="#collection" class="menu-link" data-i18n="menu.collection">FLEET</a>
+            <a href="#packages" class="menu-link" data-i18n="menu.packages">PACKAGES</a>
+            <a href="#testimonials" class="menu-link" data-i18n="menu.testimonials">TESTIMONIALS</a>
+            <a href="#contact" class="menu-link" data-i18n="menu.contact">CONTACT</a>
+        </nav>
+        <div class="menu-footer">
+            <span data-i18n="menu.tagline">PRIVATE AUTOMOTIVE EXPERIENCE</span>
+        </div>
+    </aside>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
